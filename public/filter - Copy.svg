@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 13" width="15" height="13">
+	<title>top_cons</title>
+	<defs>
+		<image  width="15" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANAQMAAABM0KYCAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAAAAApWe5zwAAAAJ0Uk5TAP9bkSK1AAAAG0lEQVR4nGNgsGD4/44BSEIAkH7/D85jgMkCAIo5BxifU9riAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="top_cons">
+		<g id="필터">
+			<use id="레이어 208" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
