@@ -9,23 +9,24 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper";
 import Banner from "../Components/Banner";
 import BottomBanner from "../Components/Banner/bottom";
+import Service from "../components/layout/Service";
+import RecentWork from "../components/layout/RecentWork";
 
 SwiperCore.use([Navigation]);
 export default function Home() {
   const dispatch = useDispatch();
 
-  const render = (currentUser) => (
-    <div>
-
-    </div>
-  );
   return (
     <div className="w-full">
       <Banner />
       <div className="w-full px-8 text-center">
-        <Title title="MD 추천" />
+        <Title title="Recent Works" />
       </div>
-
+      <RecentWork />
+      <div className="w-full px-8 text-center">
+        <Title title="NFT Service" />
+      </div>
+      <Service />
     </div>
   )
 }
