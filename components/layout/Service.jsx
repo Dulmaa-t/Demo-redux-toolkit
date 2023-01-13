@@ -6,7 +6,7 @@ import pen from "../../public/pens.png";
 
 const Service = () => {
     return (
-        <div className="w-full container mx-auto flex flex-row py-8">
+        <div className="w-full flex flex-row py-8">
             <div className="flex flex-col gap-4 px-4">
                 <div className="flex justify-center">
                     <Image src={pointer} alt="pointer" />
