@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
+import { BiChevronRight } from 'react-icons/bi';
 
 const CategoryNav = () => {
+    const [navItems, setNavItems] = useState(null);
+
     return (
         <div className="w-full flex justify-between gap-6 items-center">
             <ul className="w-full flex flex-row items-center gap-10 justify-center">

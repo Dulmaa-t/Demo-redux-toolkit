@@ -6,8 +6,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Pretendard, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Noto Sans KR, sans-serif;
 }
 
 /* .container {
@@ -337,7 +336,7 @@ input[type="radio"]:checked ~ label div {
   color: white !important;
 }
 
-.kiHXWb {
+.sc-bcXHqe {
   position: absolute !important;
   margin: 0 !important;
   left: 0;
@@ -356,17 +355,17 @@ input[type="radio"]:checked ~ label div {
 }
 
 @media (min-width: 1024px) {
-  .kiHXWb {
+  .sc-bcXHqe {
     padding-bottom: 5rem !important;
   }
 }
 
-.kiHXWb > svg path {
+.sc-bcXHqe > svg path {
   fill: #888 !important;
   /* display: none !important; */
 }
 
-.kiHXWb > svg {
+.sc-bcXHqe > svg {
   align-self: flex-end !important;
   margin-right: 3rem !important;
   background-color: #fff;
@@ -374,10 +373,10 @@ input[type="radio"]:checked ~ label div {
   z-index: 20;
 }
 
-.kiHXWb > svg::before {
+.sc-bcXHqe > svg::before {
   content: "fds";
 }
-.dGSgsW .fVfcRr {
+.dGSgsW .fsc-dkzDqf {
   display: flex;
   justify-content: center !important;
   max-width: max-content !important;
@@ -391,7 +390,7 @@ input[type="radio"]:checked ~ label div {
   /* visibility: hidden; */
 }
 
-.fVfcRr::after {
+.fsc-dkzDqf::after {
   vertical-align: middle !important;
   padding-top: 6px !important;
   position: absolute !important;
@@ -404,21 +403,21 @@ input[type="radio"]:checked ~ label div {
   color: #999;
 }
 
-.cXBrtO {
+.sc-dkrFOg {
   display: none !important;
   opacity: 0 !important;
   visibility: hidden !important;
 }
 
-.fVfcRr .cXBrtO {
+.fsc-dkzDqf .sc-dkrFOg {
   position: relative;
 }
 
-.fVfcRr .cXBrtO > span {
+.fsc-dkzDqf .sc-dkrFOg > span {
   display: none;
 }
 
-.fVfcRr .file-types {
+.fsc-dkzDqf .file-types {
   display: none;
 }
 
@@ -628,4 +627,47 @@ input[type="radio"]:checked ~ label div {
 
 .Pretendard_Font {
   font-family: "Pretendard";
+}
+.btn-wrap{
+  display: none;
+}
+.confirm-cont h1 {
+  display: none;
+}
+.add-txt{
+  display: none;
+}
+.confirm-inner .confirm-cont {
+  padding: 0;
+}
+.confirm-cont .inner {
+  width: 100%;
+}
+.confirm-cont .sm-txt {
+  padding: 0 10px;
+}
+.confirm-inner .cont1 {
+  padding: 0 60px;
+}
+.confirm-inner .cont2 {
+  padding: 0 60px;
+}
+.confirm-info-box .thumb-img-wrap {
+  width: 240px;
+  margin: 0 40px;
+}
+.confirm-cont .txt-list {
+  padding: 0 60px;
+}
+.confirm-inner .img-wrap {
+  padding: 0 160px;
+}
+.confirm-cont {
+  font-size: 14px;
+}
+.info-area {
+  width: 100%;
+}
+.inner {
+  width: 100%;
 }
